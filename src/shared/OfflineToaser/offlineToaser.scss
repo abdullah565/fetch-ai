@@ -1,0 +1,15 @@
+.fa-offline-toaster {
+  position: fixed;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+  background: var(--fa-gray);
+  color: var(--black);
+  z-index: 100;
+  padding: 12px;
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  transition: 0.3s all;
+}

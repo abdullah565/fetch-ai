@@ -1,0 +1,7 @@
+application:
+  name: liquid-chef-frontend
+  replicas: 1
+  port: 80
+  image: gcr.io/fetch-ai-applications/liquid-chef-frontend
+  version: v0.0.19
+  BACKEND_URL: "http://35.234.131.114"

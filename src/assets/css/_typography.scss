@@ -1,0 +1,15 @@
+@mixin fontStyle(
+  $family: var(--Poppins-Regular),
+  $size: 16px,
+  $weight: normal,
+  $style: normal,
+  $lineHeight: 1.3,
+  $color: var(--fa-dark)
+) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  font-style: $style;
+  line-height: $lineHeight;
+  color: $color;
+}

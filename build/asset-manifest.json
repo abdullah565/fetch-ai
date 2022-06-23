@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb04a45d.chunk.css",
+    "main.js": "/static/js/main.a2f1581f.chunk.js",
+    "main.js.map": "/static/js/main.a2f1581f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89814759.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89814759.js.map",
+    "static/css/2.a76b8602.chunk.css": "/static/css/2.a76b8602.chunk.css",
+    "static/js/2.97fb541d.chunk.js": "/static/js/2.97fb541d.chunk.js",
+    "static/js/2.97fb541d.chunk.js.map": "/static/js/2.97fb541d.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/2.a76b8602.chunk.css.map": "/static/css/2.a76b8602.chunk.css.map",
+    "static/css/main.fb04a45d.chunk.css.map": "/static/css/main.fb04a45d.chunk.css.map",
+    "static/js/2.97fb541d.chunk.js.LICENSE.txt": "/static/js/2.97fb541d.chunk.js.LICENSE.txt",
+    "static/media/Fetch logo_White.defd7c5f.png": "/static/media/Fetch logo_White.defd7c5f.png",
+    "static/media/index.scss": "/static/media/Poppins-Regular.ad19729d.woff2",
+    "static/media/liquid-chef.ee6dd89b.png": "/static/media/liquid-chef.ee6dd89b.png",
+    "static/media/slide-1.c5323ff4.png": "/static/media/slide-1.c5323ff4.png",
+    "static/media/slide-2.7dc006e5.png": "/static/media/slide-2.7dc006e5.png",
+    "static/media/slide-3.ddda5752.png": "/static/media/slide-3.ddda5752.png",
+    "static/media/slide-4.66f1b9bb.png": "/static/media/slide-4.66f1b9bb.png",
+    "static/media/splash.f14604d3.svg": "/static/media/splash.f14604d3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89814759.js",
+    "static/css/2.a76b8602.chunk.css",
+    "static/js/2.97fb541d.chunk.js",
+    "static/css/main.fb04a45d.chunk.css",
+    "static/js/main.a2f1581f.chunk.js"
+  ]
+}

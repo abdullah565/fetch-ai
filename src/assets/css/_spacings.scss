@@ -1,0 +1,54 @@
+$spaces: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38,
+  40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78,
+  80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 120, 230;
+
+@each $space in $spaces {
+  // margins
+  .fa-mt-#{$space} {
+    margin-top: $space + px;
+  }
+  .fa-mr-#{$space} {
+    margin-right: $space + px;
+  }
+  .fa-mb-#{$space} {
+    margin-bottom: $space + px;
+  }
+  .fa-ml-#{$space} {
+    margin-left: $space + px;
+  }
+  .fa-mx-#{$space} {
+    margin-left: $space + px;
+    margin-right: $space + px;
+  }
+  .fa-my-#{$space} {
+    margin-top: $space + px;
+    margin-bottom: $space + px;
+  }
+  .fa-m-#{$space} {
+    margin: $space + px;
+  }
+  // paddings
+  .fa-pt-#{$space} {
+    padding-top: $space + px;
+  }
+  .fa-pr-#{$space} {
+    padding-right: $space + px;
+  }
+  .fa-pb-#{$space} {
+    padding-bottom: $space + px;
+  }
+  .fa-pl-#{$space} {
+    padding-left: $space + px;
+  }
+  .fa-px-#{$space} {
+    padding-left: $space + px;
+    padding-right: $space + px;
+  }
+  .fa-py-#{$space} {
+    padding-top: $space + px;
+    padding-bottom: $space + px;
+  }
+  .fa-p-#{$space} {
+    padding: $space + px;
+  }
+}

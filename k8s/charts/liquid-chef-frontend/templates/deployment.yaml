@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.application.name }}
+  labels:
+    app: {{ .Values.application.name }}
+spec:
+  replicas: {{ .Values.application.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.application.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.application.name }}
+    spec:
+      containers:
+      - name: {{ .Values.application.name }}
+        image: "{{ .Values.application.image }}:{{ .Values.application.version }}"
+        ports:
+        - containerPort: {{ .Values.application.port }}
+        env:
+        # - name: REACT_APP_BASE_URL
+        #   value: {{ .Values.application.BACKEND_URL}}
+        - name: NODE_ENV
+          value: development

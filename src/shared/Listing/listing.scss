@@ -1,0 +1,19 @@
+@import "../../assets/css/mixins";
+.fa-menu-global-wrapper {
+  height: calc(100vh - 76px);
+  overflow: auto;
+  .fa-listing-wrapper {
+    @include xSmall(min-width) {
+      display: flex;
+    }
+  }
+}
+.fa-no-items-text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  z-index: -1;
+  position: absolute;
+}

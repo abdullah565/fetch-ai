@@ -1,0 +1,125 @@
+.fa-sustainability-bio {
+  display: flex;
+  align-items: flex-start;
+
+  .fa-sustainability-bio-short {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    color: var(--black);
+    flex: 1;
+
+    ol,
+    ul {
+      padding-left: 16px;
+    }
+
+    * {
+      font-family: var(--Poppins-Regular) !important;
+    }
+    // word-break: break-all;
+  }
+  // p {
+  //   font-size: 12px;
+  //   font-family: var(--Poppins-Regular);
+  //   color: var(--faded-text);
+  //   margin-bottom: 10px;
+
+  //   span {
+  //     color: var(--faded-text) !important;
+  //   }
+  //   &:last-child {
+  //     margin-bottom: 0;
+  //   }
+  // }
+  img {
+    width: 100px;
+    padding-left: 10px;
+  }
+  .fa-sustainability-bio-link {
+    color: var(--fa-blue);
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 12px;
+    word-break: break-all;
+    font-size: 14px;
+  }
+}
+.fa-sustainability-certificates {
+  margin-bottom: 16px;
+  p {
+    font-size: 12px;
+    font-family: var(--Poppins-Regular);
+    color: var(--faded-text);
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+  ul {
+    display: flex;
+    li {
+      max-width: 40px;
+      margin-right: 12px;
+    }
+  }
+}
+.fa-sustainability-tabs {
+  position: relative;
+  span {
+    position: absolute;
+    width: 33.33%;
+    left: 0;
+    background: var(--fa-blue);
+    height: 100%;
+    border-radius: 24px;
+    z-index: -1;
+    transition: 0.15s all;
+  }
+  ul {
+    border: 1px solid var(--fa-border);
+    display: flex;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 24px;
+    list-style: none;
+  }
+
+  li {
+    flex: 1;
+    padding: 12px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--faded-text);
+    border-radius: 40px;
+
+    &.active {
+      color: var(--white);
+    }
+  }
+}
+.fa-tabs-details {
+  font-size: 14px;
+  color: var(--black);
+  // h5 {
+  //   font-size: 16px;
+  //   font-family: var(--Poppins-Medium);
+  //   color: var(--black);
+  //   margin-bottom: 16px;
+  //   font-weight: 500;
+  // }
+
+  * {
+    font-family: var(--Poppins-Regular) !important;
+  }
+  ul,
+  ol {
+    padding-left: 16px;
+    li {
+      // list-style: disc;
+      // font-size: 12px;
+      margin-bottom: 6px;
+    }
+  }
+}

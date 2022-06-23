@@ -1,0 +1,36 @@
+.fa-bottom-nav-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 16px 32px;
+  box-shadow: 0px -2px 50px rgba(134, 134, 134, 0.25);
+  z-index: 1;
+
+  .fa-bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    .fa-bottom-nav-item {
+      text-align: center;
+      text-transform: capitalize;
+      a {
+        display: inline-block;
+      }
+      h6 {
+        font-size: 14px;
+        font-family: var(--Poppins-Regular);
+        color: var(--fa-gray);
+      }
+
+      &.active {
+        h6 {
+          color: var(--fa-orange);
+        }
+      }
+    }
+  }
+}

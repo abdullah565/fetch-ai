@@ -1,0 +1,30 @@
+.fa-product-details-desc {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 36px;
+  transform: translateY(-50px);
+  background: var(--white);
+  border-radius: 50px 50px 0 0;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+
+  .fa-pd-content {
+    margin-bottom: 24px;
+    h2 {
+      font-family: var(--Poppins-Medium);
+      font-size: 20px;
+      color: var(--black);
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    p {
+      color: var(--faded-text);
+      font-size: 12px;
+      font-family: var(--Poppins-Regular);
+    }
+  }
+  #fa-btn {
+    margin-top: auto;
+  }
+}

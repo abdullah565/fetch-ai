@@ -1,0 +1,36 @@
+.fa-supplier-marker {
+  // position: absolute;
+  img {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  &.activePin {
+    position: absolute;
+    z-index: 1;
+  }
+}
+.fa-supplychain-marker {
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.swiper-pagination-wrapper {
+  display: none !important;
+}

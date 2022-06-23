@@ -1,0 +1,100 @@
+.fa-supplier-map-wrapper {
+  height: 50vh;
+  background: #eee;
+}
+.fa-suppliers-wrapper {
+  .fa-suppliers-content {
+    background: var(--white);
+    border-radius: 32px 32px 0px 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transform: translateY(-70px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    h2 {
+      color: var(--fa-dark);
+      font-family: var(--Poppins-Medium);
+      margin-bottom: 12px;
+      padding-left: 24px;
+      padding-right: 24px;
+      font-weight: 500;
+    }
+    > p {
+      color: var(--faded-text);
+      font-size: 12px;
+      font-family: var(--Poppins-Regular);
+      padding-left: 24px;
+      padding-right: 24px;
+      line-height: 1.5;
+    }
+  }
+
+  .fa-suppliers-list {
+    margin-top: 16px;
+    padding-left: 24px;
+    padding-right: 8px;
+
+    .fa-suppliers-logo-link {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+
+      a {
+        font-size: 12px;
+        text-decoration: none;
+        color: var(--fa-blue);
+        font-family: var(--Poppins-Medium);
+        display: none;
+        margin-left: 8px;
+      }
+    }
+
+    .fa-suppliers-slide {
+      border: 1px solid var(--fa-border);
+      border-radius: 10px;
+      height: auto !important;
+      // width: 250px;
+      // min-width: 250px;
+
+      .fa-suppliers-item {
+        padding: 16px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      &.active {
+        border-color: var(--fa-orange);
+        background: rgba(248, 156, 38, 0.1);
+
+        .fa-suppliers-logo-link {
+          a {
+            display: inline-block;
+          }
+        }
+      }
+
+      h5 {
+        font-size: 16px;
+        color: var(--fa-blue);
+        font-family: var(--Poppins-Medium);
+        margin-bottom: 4px;
+        margin-top: 6px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 14px;
+        color: var(--fa-dark);
+        font-family: var(--Poppins-Regular);
+        margin-bottom: 8px;
+      }
+      img {
+        width: 36px;
+        object-fit: contain;
+      }
+    }
+  }
+}
